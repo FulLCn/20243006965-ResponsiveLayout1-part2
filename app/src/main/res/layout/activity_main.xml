@@ -84,8 +84,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Change"
-        app:layout_constraintBottom_toBottomOf="@id/tv_app_text"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/tv_app_text"
         app:layout_constraintMarginTop="32dp"/>
 
     <Button
