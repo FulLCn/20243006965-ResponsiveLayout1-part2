@@ -26,5 +26,46 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/tv_title1"/>
 
+    <TextView
+        android:id="@+id/tv_this"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:text="this"
+        android:gravity="center"
+        android:background="#ff4444"
+        app:layout_constraintTop_toBottomOf="@id/tv_title2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tv_is"
+        app:layout_constraintHorizontal_chainStyle="spread"/>
 
+    <TextView
+        android:id="@+id/tv_is"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:text="is"
+        android:gravity="center"
+        android:background="#33b5e5"
+        app:layout_constraintTop_toBottomOf="@id/tv_title2"
+        app:layout_constraintStart_toStartOf="@id/tv_this"
+        app:layout_constraintEnd_toStartOf="@id/tv_my"/>
+
+    <TextView
+        android:id="@+id/tv_my"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:gravity="center"
+        android:background="#33b5e5"
+        app:layout_constraintTop_toBottomOf="@id/tv_title2"
+        app:layout_constraintStart_toStartOf="@id/tv_is"
+        app:layout_constraintEnd_toStartOf="@id/tv_first"
+
+    <TextView
+        android:id="@+id/tv_first"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:gravity="center"
+        android:background="#33b5e5"
+        app:layout_constraintTop_toBottomOf="@id/tv_title2"
+        app:layout_constraintStart_toStartOf="@id/tv_my"
+        app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
