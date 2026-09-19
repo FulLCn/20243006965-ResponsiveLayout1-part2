@@ -30,7 +30,7 @@
         android:id="@+id/tv_this"
         android:layout_width="0dp"
         android:layout_height="88dp"
-        android:text="this"
+        android:text="This"
         android:gravity="center"
         android:background="#ff4444"
         app:layout_constraintTop_toBottomOf="@id/tv_title2"
